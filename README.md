@@ -36,11 +36,66 @@ Code:
 
 ---
 
+## 📦 Instalacion
+
+### Recomendado (CLI Tool)
+
+Instalar con **pipx** (recomendado para CLI tools):
+
+````bash
+pipx install claude-times
+
+---
+
+Si no tienes instalado pipx:
+
+brew install pipx
+pipx ensurepath
+Alternative: pip
+pip install claude-times
+
+Después de la instalación:
+
+claude-times --help
+
+---
+
+Development Setup
+
+Clone the repository:
+
+git clone https://github.com/ATuManera/claude-times.git
+cd claude-times
+
+Create a virtual environment:
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install in editable mode with development tools:
+
+pip install -e ".[dev]"
+
+Run linting:
+
+ruff check .
+🔄 Upgrade
+
+If installed with pipx:
+
+pipx upgrade claude-times
+
+If installed with pip:
+
+pip install --upgrade claude-times
+
+---
+
 ## 🚀 Uso
 
 ```bash
 claude-times
-```
+````
 
 ### Opciones principales
 
