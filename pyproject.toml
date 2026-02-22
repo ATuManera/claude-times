@@ -10,6 +10,11 @@ authors = [
 license = { text = "AGPL-3.0-or-later" }
 dependencies = []
 
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.1.0"
+]
+
 [project.scripts]
 claude-times = "claude_times.cli:run"
 
