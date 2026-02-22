@@ -1,6 +1,6 @@
 [project]
 name = "claude-times"
-version = "1.0.0"
+version = "1.0.1"
 description = "Analyze Claude Code sessions, token usage, tools, and estimated API costs."
 readme = "README.md"
 requires-python = ">=3.8"
