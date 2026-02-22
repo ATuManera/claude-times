@@ -39,7 +39,7 @@ Code:
 ## 🚀 Uso
 
 ```bash
-python3 claude-times.py
+claude-times
 ```
 
 ### Opciones principales
@@ -57,7 +57,7 @@ python3 claude-times.py
 Ejemplo:
 
 ```bash
-python3 claude-times.py --project lego --days 30 --detail
+claude-times --project lego --days 30 --detail
 ```
 
 ---
