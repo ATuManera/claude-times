@@ -875,7 +875,7 @@ def find_project_dir(query=None):
             if d.is_dir() and last_dir.lower() in d.name.lower().replace("-", ""):
                 return d
         print(f"Proyecto no encontrado para: {cwd}", file=sys.stderr)
-        print(f"Usa --list o --project NOMBRE.", file=sys.stderr)
+        print("Usa --list o --project NOMBRE.", file=sys.stderr)
         sys.exit(1)
 
 
